@@ -1,8 +1,6 @@
-/* src/styles/Footer.css */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-  }
-  
+.container_main{
+  display: flex;
+  justify-content: right;
+  color: white; 
+  padding-right: 20rem;
+}
