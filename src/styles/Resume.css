@@ -1,0 +1,28 @@
+/* src/styles/Resume.css */
+.resume-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .resume-section p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .resume-download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-download-button:hover {
+    background-color: #555;
+  }
+  
