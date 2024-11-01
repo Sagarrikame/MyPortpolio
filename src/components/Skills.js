@@ -12,6 +12,7 @@ function Skills() {
   ];
 
   return (
+    <div className='back'>
     <section className="skills-section">
 
       <div className="skills-list">
@@ -26,6 +27,7 @@ function Skills() {
         </ul>
       </div>
     </section>
+    </div>
   );
 }
 
