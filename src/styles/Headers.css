@@ -1,0 +1,52 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    animation: fadeIn 1.5s ease-in;
+  }
+  .header-title {
+    font-size: 2em;
+  }
+  
+  .header-subtitle {
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .portfolio-nav {
+    margin-top: 20px;
+  }
+  
+  .portfolio-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .portfolio-nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .portfolio-nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .portfolio-nav a:hover {
+    color: #0073e6;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+  
+  .contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+  }
